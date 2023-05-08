@@ -1,0 +1,27 @@
+aws console pr jake 1 gb volume banake instance ko attach karo fir bad me, 
+volume ko kisi directory pr mount karana hai.   
+
+71  df -Th
+   72  lsblk
+   73  file -s /dev/xvdf
+   74  mkfs -t xfs /dev/xvdf
+   75  file -s /dev/xvdf
+   76  ll
+   85  mkdir apps
+   86  cd apps/
+   87  mkdir my-data
+   88  cd my-data/
+   89  pwd
+   90  mkdir -p /apps/volume/new-volume
+   91  lsblk
+   92  mount /dev/xvdf /apps/volume/new-volume
+   93  df -h
+   partition 
+fdisk -l
+fdisk /dev/xvdf
+-----------------------------------------------------
+
+1 gb volume ko 2 gb karna hai
+yum install xfs -y
+xfs_growfs /dev/xvda /home/ec2-user/parvez
+
