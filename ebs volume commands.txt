@@ -1,4 +1,4 @@
-aws console pr jake 1 gb volume banake instance ko attach karo fir bad me, 
+ .. aws console pr jake 1 gb volume banake instance ko attach karo fir bad me, 
 volume ko kisi directory pr mount karana hai.   
 
 71  df -Th
